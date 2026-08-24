@@ -43,7 +43,7 @@ else:
  pagamento = False
 
 if pagamento:
-  print ("O valor com o desconto ficou:",valor - (valor * 0.1))
+  print ("O valor com o desconto ficou:",valor - (valor * 0.10))
 else:
   print ("O valor ficou:",valor)
 
