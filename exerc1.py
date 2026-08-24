@@ -1,17 +1,49 @@
-habilitado = str(input("Você tem uma habilitação? "))
-if (habilitado == "sim"):
-    print("Você pode dirigir")
-elif (habilitado == "não"):
-    print("Você não pode dirigir")
+print ("Quem pode dirigir")
+
+idade = int (input ("Insira sua idade: "))
+habilitado = input ("Você tem uma habilitação? ")
+
+if habilitado.lower() == "sim":
+ habilitado = True
 else:
-    print("erro, responda com sim ou não")
+  habilitado = False
+
+if idade >= 18 and habilitado:
+  print ("Pode dirigir!")
+else:
+  print ("Não pode dirigir")
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-pagamento = str(input("Qual sua forma de pagamento? "))
+print ("Quem pode votar?")
+
+idade = int (input ("Insira sua idade: "))
+titulo_eleitor = input ("Possui título de eleitor? ")
+
+if titulo_eleitor.lower() == "sim":
+    titulo_eleitor = True
+else:
+    titulo_eleitor = False
+
+if idade >= 16 and titulo_eleitor:
+    print ("Pode votar!")
+else:
+    print ("Não pode votar!")
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+print ("10% de desconto á vista")
+
+pagamento = (input("Qual sua forma de pagamento? "))
 valor = float(input("Insira o valor da compra: "))
 
-if(pagamento == "a vista"):
-    print("O valor com o desconto ficou:",valor - (valor * 0.1),"reais")
+if pagamento.lower() == "á vista":
+ pagamento = True     
 else:
-    print("O valor ficou:", valor,"reais")
+ pagamento = False
+
+if pagamento:
+  print ("O valor com o desconto ficou:",valor - (valor * 0.1))
+else:
+  print ("O valor ficou:",valor)
+
