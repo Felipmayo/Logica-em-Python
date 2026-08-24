@@ -9,9 +9,7 @@ else:
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 pagamento = str(input("Qual sua forma de pagamento? "))
-valor = float
-desconto = float
-valor = 1000
+valor = float(input("Insira o valor da compra: "))
 
 if(pagamento == "a vista"):
     print("O valor com o desconto ficou:",valor - (valor * 0.1),"reais")
