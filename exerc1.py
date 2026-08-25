@@ -60,3 +60,39 @@ else:
   print("O salario vale:", salario)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+print("INTERVALO")
+intervalo = int(input("Insira o número: "))
+
+if intervalo >= 10 and intervalo <= 50:
+  print("Está dentro do intervalo")
+else:
+  print("Não está dentro do intervalo")
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+print("CADASTRO")
+
+cadastro = input("Cadastre a sua senha: ")
+autenticacao = input("Faça o seu login: ")
+
+if cadastro == autenticacao:
+  print("Senha correta!")
+else:
+  print("Senha incorreta!")
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+print("ENTRADA NO EVENTO")
+idade = int(input("Insira a idade: "))
+ingresso = input("Possui um ingresso: ")
+
+if ingresso.lower() == "sim":
+  ingresso = True
+else:
+  ingresso = False
+
+if idade >= 18 and ingresso:
+  print("Entrada permitida")
+else:
+  print("Entrada negada")
