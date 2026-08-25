@@ -47,3 +47,16 @@ if pagamento:
 else:
   print ("O valor ficou:",valor)
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+print("Bônus salarial")
+
+salario = float(input("Insira o salario: "))
+bonus = float(salario + (salario * 0.15))
+
+if salario >= 2000:
+  print("O salario com o bônus vale:", bonus)
+else:
+  print("O salario vale:", salario)
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
