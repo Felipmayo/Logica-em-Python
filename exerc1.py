@@ -96,3 +96,6 @@ if idade >= 18 and ingresso:
   print("Entrada permitida")
 else:
   print("Entrada negada")
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
