@@ -62,7 +62,7 @@ else:
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 print("INTERVALO")
-intervalo = int(input("Insira o número: "))
+intervalo = int(input("Insira um número: "))
 
 if intervalo >= 10 and intervalo <= 50:
   print("Está dentro do intervalo")
