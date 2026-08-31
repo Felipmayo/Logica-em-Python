@@ -99,3 +99,22 @@ else:
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+print("<<CALCULADORA SIMPLES>>")
+X = float(input("Digite o primeiro número: "))
+Y = float(input("Digite o segundo número: "))
+operacao = input("Digite o símbolo da operação desejada: ")
+
+if operacao == "+":
+  print(X,"+",Y,"=", X + Y)
+elif operacao == "-":
+  print(X,"-",Y,"=", X - Y)
+elif operacao == "*":
+  print(X,"*",Y,"=", X * Y)
+elif operacao == "/":
+  if X!= 0 and Y!= 0:
+    print(X,"/",Y,"=", X / Y)
+  else:
+    print("A operação é inválida")
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
