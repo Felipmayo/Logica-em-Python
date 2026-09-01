@@ -118,3 +118,17 @@ elif operacao == "/":
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+print("<<PRÁTICA DE ESPORTES>>\n")
+idade = int(input("Insira a idade: "))
+autorizacao = input("Possui autorização para a prática? ")
+if autorizacao.lower() == "sim":
+  autorizacao = True
+else:
+  autorizacao = False
+if idade >= 12 and idade <= 18 and autorizacao:
+  print("Pode praicar")
+else:
+  print("Não pode praticar")
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
