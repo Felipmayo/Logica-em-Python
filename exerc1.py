@@ -132,3 +132,21 @@ else:
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+print("---ESTÁ CHOVENDO---\n")
+chovendo = input("Está chovendo?(sim/não) (yes?not)").lower()
+if chovendo == "not" or chovendo == "não":
+  print("Pode sair")
+else:
+  print("Não saia ou use seu guarda-chuva")
+
+#professor:
+
+print("---ESTÁ CHOVENDO---\n")
+resposta = input("Está chovendo? (sim/não)(yes/not) ").lower()
+chovendo = resposta 
+if chovendo =="yes" or chovendo =="sim":
+  print("Use guarda-chuva")
+elif chovendo == resposta == "not" or "não":
+  print("Saia tranquilo")
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
