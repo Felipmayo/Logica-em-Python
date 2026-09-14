@@ -39,6 +39,8 @@ b = float (input ("Insira um número: "))
 
 soma = a + b
 
+print("A soma:", soma)
+
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 print ("Multiplicação")
