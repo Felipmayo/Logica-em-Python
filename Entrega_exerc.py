@@ -96,8 +96,20 @@ print ("A área do triângulo é: ", (h + b) / 2)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+print ("Perimetro do retângulo")
+
+lado1 = float (input ("Insira o lado 1: "))
+lado2 = float (input ("Insira o lado 2: "))
+ladoA = float (input ("Insira o lado A: "))
+ladoB = float (input ("Insira o lado B: "))
+
+print ("O perimetro do retângulo é: ", lado1 + lado2 + ladoA + ladoB)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 print ("Quem pode dirigir")
 
 idade = int (input ("Insira sua idade: "))
