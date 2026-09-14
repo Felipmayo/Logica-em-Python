@@ -141,6 +141,18 @@ if a > b:
 else:
   print(b,"é maior que",a)
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+a = float(input("Insira o primeiro numero: "))
+b = float(input("Insira o segundo numero:" ))
+c = float(input("Insira o terceiro numero:" ))
+if(a > b and a > c):
+    print(a," é maior entre os 3 numeros")
+elif(b > a and b > c):
+    print(b," é maior entre os 3")
+else:
+    print(c," é maior entre os 3")
+    
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
 print ("Quem pode dirigir")
