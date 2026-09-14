@@ -177,6 +177,22 @@ else:
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+print("Fases da vida: criança, adolescente, adulto e idoso")
+idade = float(input("Insira a sua idade: "))
+
+if idade > 0 and idade < 12:
+    print("voce é criança")
+elif idade >= 12 and idade < 18:
+    print("voce é adolescente")    
+elif idade >= 18 and idade < 60:
+    print("voce é adulto")
+elif idade >= 60:
+    print("voce é idoso")
+else:
+    print("idade inválida")
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 print ("10% de desconto á vista")
 
 pagamento = (input("Qual sua forma de pagamento? "))
