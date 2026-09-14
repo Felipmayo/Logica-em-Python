@@ -141,7 +141,9 @@ if a > b:
 else:
   print(b,"é maior que",a)
 
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+
+print("Maior ou Menor Entre 3 Números") 
 
 a = float(input("Insira o primeiro numero: "))
 b = float(input("Insira o segundo numero:" ))
