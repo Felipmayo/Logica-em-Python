@@ -87,9 +87,17 @@ print ("O antecessor é: ", a - 1, "\nO sucessor é: ", a + 1)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+print ("Área do triângulo")
+
+h = float (input ("Insira a altura: "))
+b = float (input ("Insira a base: "))
+
+print ("A área do triângulo é: ", (h + b) / 2)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 print ("Quem pode dirigir")
 
 idade = int (input ("Insira sua idade: "))
