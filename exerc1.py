@@ -164,3 +164,50 @@ else:
   print("Sua compra não tem desconto. O valor da compra",compra)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+print("----TRIÂNGULO----")
+lado_a = float(input("Insira o valor referente ao primeiro lado: "))
+lado_b = float(input("Insira o valor referente ao segundo lado: "))
+lado_c = float(input("Insira o valor referente ao terceiro lado: "))
+if lado_a == lado_b and lado_a == lado_c:
+  print("Triângulo equilátero")
+elif (lado_a == lado_b and lado_a != lado_c) or (lado_a == lado_c and lado_a != lado_b) or (lado_b == lado_c and lado_b != lado_a):
+  print("Triângulo isósceles")
+else:
+  print("Triângulo")
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+print("---ESCOLHA DE PAGAMENTO---")
+
+def main ():
+
+  print("1 - Dinheiro")
+  print("2 - Cartão de Crédito")
+  print("3 - Cartão de Débito")
+  print("4 - PIX")
+  print("5 - Boleto")
+
+  opcao = int (input ("Escolha a forma de pagamento: "))
+
+  pagamento = escolhapagamento (opcao)
+
+  print("Forma de pagamento escolhido: ",pagamento)
+
+def escolhapagamento (opcao):
+
+  match opcao:
+    case 1:
+      return "Dinheiro"
+    case 2:
+      return "Cartão de Crédito"
+    case 3:
+      return "Cartão de Débito"
+    case 4:
+      return "PIX"
+    case 5:
+      return "Boleto"
+    case 6:
+      return "Opção inválida"
+  
+main()
