@@ -107,6 +107,19 @@ print ("O perimetro do retângulo é: ", lado1 + lado2 + ladoA + ladoB)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+print ("Positivo, negativo ou zero")
+
+numero = int (input ("Insira um número: "))
+
+if numero > 0:
+  print ("O número é positivo")
+elif numero < 0:
+  print ("O número é negativo")
+else:
+  print ("O número é: 0")
+    
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
