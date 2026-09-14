@@ -201,16 +201,22 @@ elif chovendo == resposta == "not" or "não":
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 print("DESCONTO PROGRESSIVO")
-compra = int(input("Insira o valor da compra: "))
+def main():
+  compra = int(input("Insira o valor da compra: "))
+  valorfinal = calculodesconto (compra)
+  print("Valor total da compra: ",valorfinal)
 
-if compra >= 100 and compra < 300:
-  print("O valor da compra ficou",compra-(compra*0.10))
-elif compra >= 300 and compra < 500:
-  print("O valor da compra ficou",compra-(compra*0.15))
-elif compra >= 500:
-  print("O valor da compra ficou",compra-(compra*0.20))
-else:
-  print("Sua compra não tem desconto. O valor da compra",compra)
+def calculodesconto (compra):
+  if compra >= 100 and compra < 300:
+    return compra-(compra*0.10)
+  elif compra >= 300 and compra < 500:
+    return compra-(compra*0.15)
+  elif compra >= 500:
+    return compra-(compra*0.20)
+  else:
+    return compra
+ 
+main()
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
