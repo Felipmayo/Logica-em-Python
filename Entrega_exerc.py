@@ -31,6 +31,22 @@ print ("MÉDIA: ",media)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+print ("Subtração")
+
+a = float (input ("Insira um número: "))
+
+b = float (input ("Insira um número: "))
+
+subtração = a - b
+
+print ("A subtração: ", subtração)
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 print ("Quem pode dirigir")
 
 idade = int (input ("Insira sua idade: "))
