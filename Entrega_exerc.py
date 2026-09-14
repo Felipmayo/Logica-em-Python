@@ -128,10 +128,18 @@ if numero % 2 == 0:
   print ("O número é par")
 else:
   print("O número é ímpar")
+    
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+print ("Maior ou Menor")
 
+a = int (input ("Insira o primeiro número: "))
+b = int (input ("Insira o segundo número: "))
 
+if a > b:
+  print (a,"é maior que",b)
+else:
+  print(b,"é maior que",a)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
